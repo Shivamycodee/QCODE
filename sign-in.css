@@ -1,11 +1,14 @@
 .bg-img {
   background: url("logo1.jpg");
-  height: 700px;
+  height: 100%;
   width: 100%;
   position: absolute;
+  overflow:hidden;
   background-size: cover;
   z-index: -1;
 }
+body{
+margin:0;}
 
 .sign-up {
   /* position: relative; */
