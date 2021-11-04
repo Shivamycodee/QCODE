@@ -22,17 +22,6 @@ function practice(){
   open("https://www.w3schools.com/")
 }
 
-
-// function conform(){
-// var Emailset= localStorage.getItem("Email")
-// var checkmail =checkEmail.value
-//       if(Emailset==checkmail){
-//         open("website1.html")
-//       }
-//       else{
-//         alert("❌ Wrong Email id or password.")
-//       }
-//     }
 var n =0
 function conform(){
   var dataArray = JSON.parse(localStorage.getItem("userData"));
@@ -40,7 +29,7 @@ function conform(){
     var k=dataArray[i].emaild
     var p=dataArray[i].passd
    if(k == checkEmail.value && p== checkPass.value){
-      open("website1.html")
+      open("index.html")
       break;
       }
       else{
@@ -82,9 +71,6 @@ function togglePassword() {
     passEl.type = 'password';
   }
 }
- 
-
-const Twitter=document.getElementById('twitter')
 
 
 
