@@ -26,7 +26,7 @@ function conform(){
     var k=dataArray[i].emaild
     var p=dataArray[i].passd
    if(k == checkEmail.value && p== checkPass.value){
-      open("html-page.html","_self")
+      open("index.html","_self")
       break;
       }
       else{
