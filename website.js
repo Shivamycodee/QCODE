@@ -11,11 +11,8 @@ var Userdata=[]
 
 signUpEl.addEventListener("click",function(){
   Userdata.push({emaild:emailEl.value,passd:passEl.value})
-  // localStorage.setItem("Email",emailEl.value)
   localStorage.setItem("userData",JSON.stringify(Userdata))
   open("sign-in.html","_self")
-
-
 })
 
 function practice(){
@@ -29,7 +26,7 @@ function conform(){
     var k=dataArray[i].emaild
     var p=dataArray[i].passd
    if(k == checkEmail.value && p== checkPass.value){
-      open("index.html")
+      open("html-page.html","_self")
       break;
       }
       else{
