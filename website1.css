@@ -23,7 +23,7 @@ body {
   position: sticky;
   margin-top: 0;
   display: flex;
-  background: rgb(92, 250, 139);
+  background:black;
   width: 100%;
   justify-content: space-evenly;
   border-radius: 9px;
